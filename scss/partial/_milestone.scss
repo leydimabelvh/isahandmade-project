@@ -1,0 +1,40 @@
+.milestone {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#milestone {
+    background-image: url("../images/hero/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.milestone__overlay {
+    position: relative;
+    z-index: 2; 
+}
+
+.milestone__overlay::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #382d3495;
+    z-index: -1        
+}
+
+.milestone__counter .milestone__divider {
+    width: 80px;    
+    height: 2px;
+    background-color: #a28d9c;
+    margin: 18px auto;
+}
+
+.milestone__number {
+    margin: 0px;
+}

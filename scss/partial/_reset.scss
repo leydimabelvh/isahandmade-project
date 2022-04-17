@@ -1,0 +1,22 @@
+* {
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #382d34;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8B7083;
+}

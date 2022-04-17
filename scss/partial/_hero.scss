@@ -1,0 +1,69 @@
+.banner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#banner {
+    background-image: url("../images/hero/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#banner h1 {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#banner h6 {
+    font-weight: 400;
+}
+
+.banner__overlay {
+    position: relative;
+    z-index: 2; 
+}
+
+.banner__overlay::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #382d3495;
+    z-index: -1        
+}
+
+.btn {
+    padding: 14px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background-color: #53434f;
+    border-color: #53434f;
+    border-radius: 100px;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border-color: #53434f;
+    color: #53434f;
+}
+
+
+
+
+
+
+
+
+
+

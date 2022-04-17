@@ -1,0 +1,29 @@
+.header {
+    &__logo {
+        max-width: 100%;
+        width: 180px;
+    }
+}
+
+.header .nav-link {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar {
+    transition: all 0.2s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #8b7083;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+    color: #8b7083;
+}
+

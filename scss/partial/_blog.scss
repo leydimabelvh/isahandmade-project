@@ -1,0 +1,23 @@
+#blog {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.blog__divider {
+    background-color: #382d34;
+    height: 2px;
+    width: 120px;
+    margin: 50px auto;
+}
+
+.blog__containerEachOne {
+    margin-bottom: 50px;
+}
+
+.blog {
+    .blog__image {
+    width: 100%;
+    object-fit: cover;
+}
+
+}
